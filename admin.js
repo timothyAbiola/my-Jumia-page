@@ -23,7 +23,7 @@ const image = document.getElementById("image");
     ip: ip.value,
     image: image.value,
     };
-    fetch("http://localhost:1111/products", {
+    fetch("http://localhost:1234/products", {
       method: "POST",
 
       body: JSON.stringify(product),

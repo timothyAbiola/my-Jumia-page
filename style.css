@@ -256,11 +256,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 .content-box{
     height: 183px;
-    width: 183px;
+    width: 162px;
     border-radius: 3px;
     cursor: pointer;
 }

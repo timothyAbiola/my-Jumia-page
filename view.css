@@ -200,14 +200,15 @@
 }
 #stock{
     width: 100%;
-    height: 300px;
+    height: 280px;
     background-color: white;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .perStock{
-    width: 100%;
-    height: 275px;
+    width: 80%;
+    height: 265px;
     background-color: white;
     cursor: pointer;
 }
@@ -218,7 +219,7 @@
 }
 .stockImg{
     width: 100%;
-    height: 210px;
+    height: 180px;
     margin: 0px;
 }
 .desc{

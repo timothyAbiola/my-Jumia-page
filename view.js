@@ -9,7 +9,7 @@
   product.forEach(item => {
     let desc = item.description
     if (desc.length >= 25) {
-      desc = item.description.slice(0, 24);
+      desc = item.description.slice(0, 21);
       stock.innerHTML += `<div class="perStock"> 
         <img src="${item.image}" class="stockImg"> 
         <p class="desc">${desc}...</p>
